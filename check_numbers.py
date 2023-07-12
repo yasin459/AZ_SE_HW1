@@ -12,6 +12,6 @@ def check_numbers(filename):
 filename = 'note.txt'
 are_numbers_same = check_numbers(filename)
 if are_numbers_same:
-    print("same.")
+    print("Two id numbers are the same.")
 else:
-    print("different.")
+    print("Two id numbers are different.")
