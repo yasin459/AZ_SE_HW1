@@ -3,7 +3,7 @@ def check_numbers(filename):
         lines = file.readlines()    
     lines = [line.strip().split() for line in lines]
 
-    numbers = [line[1] for line in lines]
+    numbers = [line[-1] for line in lines]
     if numbers[0] == numbers[1]:
         return True
     else:
